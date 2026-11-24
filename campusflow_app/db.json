@@ -1,0 +1,106 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Rendre le TP Programmation Mobile",
+      "description": "Dépôt du travail pratique.",
+      "course": "Programmation Mobile",
+      "dueDate": "2026-11-22T23:59:00.000",
+      "isCompleted": false
+    },
+    {
+      "id": "2",
+      "title": "Relire le rapport de projet",
+      "description": "Vérifier la dernière version avant remise.",
+      "course": "Gestion de projet",
+      "dueDate": "2026-11-24T20:00:00.000",
+      "isCompleted": false
+    },
+    {
+      "id": "3",
+      "title": "Exposé Réseaux",
+      "description": "Présentation de 10 minutes, 8 diapositives.",
+      "course": "Réseaux",
+      "dueDate": "2026-11-26T10:00:00.000",
+      "isCompleted": false
+    },
+    {
+      "id": "4",
+      "title": "Réviser le partiel",
+      "description": "Revoir les notions importantes.",
+      "course": "Bases de données",
+      "dueDate": "2026-12-02T18:00:00.000",
+      "isCompleted": false
+    },
+    {
+      "id": "5",
+      "title": "Lire le chapitre 4",
+      "description": "Lire et prendre des notes.",
+      "course": "Systèmes d'information",
+      "dueDate": "2026-12-04T18:00:00.000",
+      "isCompleted": false
+    },
+    {
+      "id": "6",
+      "title": "Installer Android Studio",
+      "description": "Configurer l'environnement Flutter.",
+      "course": "Programmation Mobile",
+      "dueDate": "2026-11-10T18:00:00.000",
+      "isCompleted": true
+    },
+    {
+      "id": "7",
+      "title": "Choisir le sujet de projet",
+      "description": "Valider la proposition de projet.",
+      "course": "Gestion de projet",
+      "dueDate": "2026-11-12T18:00:00.000",
+      "isCompleted": true
+    },
+    {
+      "id": "8",
+      "title": "Rendre le questionnaire réseau",
+      "description": "Réponses au questionnaire du cours.",
+      "course": "Réseaux",
+      "dueDate": "2026-11-15T18:00:00.000",
+      "isCompleted": true
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "aminata@campusflow.com",
+      "password": "123456",
+      "name": "Aminata Ouédraogo",
+      "institution": "Université Aube Nouvelle",
+      "program": "Master 1 MSI"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "Programmation Mobile",
+      "professor": "Moctar COMPAORE"
+    },
+    {
+      "id": "2",
+      "name": "Gestion de projet",
+      "professor": ""
+    },
+    {
+      "id": "3",
+      "name": "Réseaux",
+      "professor": ""
+    },
+    {
+      "id": "4",
+      "name": "Bases de données",
+      "professor": ""
+    },
+    {
+      "id": "5",
+      "name": "Systèmes d'information",
+      "professor": ""
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
